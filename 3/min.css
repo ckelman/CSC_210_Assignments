@@ -1,0 +1,123 @@
+/* Assignment 2 tmnt.html for team Scrum City. Written by Chris Bell */
+
+
+body{	
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 8pt;
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner{
+
+/*	background-image: url('bannerbg.png');
+	background-repeat: repeat-x;
+*/
+}
+
+h1{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 24pt;
+	text-align: center;
+/*
+	text-shadow: 3px 3px #999999;
+*/
+	padding: 0px;
+}
+
+#content{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+/*
+	border: 3px solid gray;
+	border-radius: 20px;
+	overflow: auto;
+*/
+}
+
+#overview{
+	float: right;
+	width: 250px;
+/*
+	background-color: #A2B964;
+*/
+	margin-left: 10pt;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+}
+
+dl{
+	padding-left: 1em;
+}
+
+#tableheader{
+	font-size: 48pt;
+	font-weight: bold;
+/*
+	color: red;
+	background-image: url('rbg.png');
+	background-repeat: repeat-x;
+*/
+	vertical-align: top;
+}
+
+#tableheadicon{
+	margin: 0;
+}
+
+.column{
+	float: left;
+	width: 29%;
+	margin: 2%;
+	margin-bottom: 0;
+}
+
+#validation{
+	position: fixed;	
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.5;
+}
+
+.quote{
+	font-weight: bold;
+	font-size: 8pt;
+/*
+	background-color: #E8DC9B;
+	border: 2px solid gray;
+	border-radius: 10px;
+*/
+	overflow: auto;
+	padding: 8px;
+	clear: left;
+}
+
+.critic{
+	margin-bottom: 20pt;
+}
+
+.icon{	
+	margin: 5px;
+	float: left;
+}
+
+dt{
+	font-weight: bold;
+	margin-top: 10pt;
+}
+
+#links{
+	list-style: none;
+	padding-left: 0;
+}
+
+#bar{
+/*
+	background-color: #A2B964;
+*/
+	clear: both;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+}

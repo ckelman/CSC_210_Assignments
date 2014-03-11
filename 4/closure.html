@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>ASCIImation</title>
+
+		<!-- instructor-provided JavaScript files; do not modify -->
+		<script src="http://www.cs.rochester.edu/u/jbigham/courses/210/assignments/5/animations.js" type="text/javascript"></script>
+        <script src="ascii.js" type="text/javascript"></script>
+		<!-- link to your files here -->
+		<link href="ascii.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body onload = "onLoad();">
+		<h1>ASCII Animation Viewer</h1>
+		
+		<!-- your controls should go here -->
+		<div id="display">
+			<textarea id="displayarea" rows="20" cols="80"></textarea>
+		</div>
+
+		<div>
+			Play Controls:
+				<button id="start" onclick="StartAnimation()">Start</button>
+				<button id="stop" onclick="StopAnimation()">Stop</button>
+				<button id="pause" onclick="PauseAnimation()">Pause</button>
+				<button id="back" onclick="Rewind()">Back</button>
+			Animation:
+            <select onchange="SelectAnimation()" id="animation-select">
+				<option value="blank">Blank</option>
+				<option value="exercise">Exercise</option>
+				<option value="juggler">Juggler</option>
+				<option value="bike">Bike</option>
+				<option value="dive">Dive</option>
+				<option value="hunter">Hunter</option>
+            </select>
+            
+			Size:
+				<input type="radio" name="size" onclick="SmallFont()" />Small
+				<input type="radio" name="size" onclick="MediumFont()" checked='checked />Medium
+				<input type="radio" name="size" onclick="LargeFont()" />Large
+			Speed:
+				<input type ="checkbox" onclick="Turbo()" />Turbo
+		</div>
+		<div>
+			<a href="http://validator.w3.org/check/referer"><img src="http://www.cs.rochester.edu/u/jbigham/courses/210/assignments/5/w3c-xhtml.png" alt="Valid XHTML 1.1" /></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://www.cs.rochester.edu/u/jbigham/courses/210/assignments/5/w3c-css.png" alt="Valid CSS" /></a>
+		</div>
+	</body>
+</html>

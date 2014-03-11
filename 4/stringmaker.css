@@ -1,0 +1,19 @@
+#convert {
+	font-size: larger;
+	font-weight: bold;
+	margin-top: 0.5em;
+	padding: 0.5em 2em;
+}
+
+.controlsarea {
+	text-align: center;
+}
+
+h1, p {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+textarea {
+	width: 48%;
+}
